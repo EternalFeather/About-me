@@ -1099,7 +1099,7 @@ header .top-bar {
 	min-width: 220px;
 	min-height: 66px;
 	position: absolute;
-	left: 90px;
+	left: 0px;
 	top: 0;
 }
 header .logo {
@@ -1293,8 +1293,16 @@ header .logo a {
  *
  * ------------------------------------------------------------------- 
  */
+.head-title{
+  font-family: "Microsoft YaHei" !important;
+  padding-top: 10px;
+  font-size: 48px !important;
+  font-weight: bold;
+  letter-spacing: 5px !important;
+}
+
 #intro {
-	background: #151515 url(../images/intro-bg.jpg) no-repeat center bottom;
+	background: #151515 url(../images/header-background.jpg) no-repeat center bottom;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
@@ -1325,16 +1333,11 @@ header .logo a {
 	transform: translateY(-2.1rem);
 }
 .intro-content h1 {
-	color: #FFFFFF;
-	font-family: "poppins-medium", sans-serif;
-	font-size: 8.4rem;
-	line-height: 1.071;
-	max-width: 900px;
-	margin-top: 0;
-	margin-bottom: .6rem;
-	margin-left: auto;
-	margin-right: auto;
-	text-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+	   font: 90px/1.1em 'opensans-bold', sans-serif;
+	   color: #fff;
+	   letter-spacing: -2px;
+	   margin: 0 auto 18px auto;
+	   text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
 }
 .intro-content h5 {
 	color: #cc005f;
@@ -1396,6 +1399,42 @@ header .logo a {
 	position: relative;
 	left: 1.2rem;
 }
+
+header .social {
+   margin: 24px 0;
+   padding: 0;
+   font-size: 30px;
+   text-shadow: 0px 1px 2px rgba(0, 0, 0, .8);
+}
+header .social li {
+   display: inline-block;
+   margin: 0 15px;
+   padding: 0;
+}
+header .social li a { color: #fff; }
+header .social li a:hover { color: rgb(204, 0, 95); }
+
+/* scrolldown link */
+header .scrolldown a {
+   position: absolute;
+   bottom: 30px;
+   left: 50%;
+   margin-left: -29px;
+   color: #fff;
+   display: block;
+   height: 42px;
+   width: 42px;
+   font-size: 42px;
+   line-height: 42px;
+   color: #fff;
+   border-radius: 100%;
+
+   -webkit-transition: all .3s ease-in-out;
+   -moz-transition: all .3s ease-in-out;
+   -o-transition: all .3s ease-in-out;
+   transition: all .3s ease-in-out;
+}
+header .scrolldown a:hover { color: rgb(204, 0, 95); }
 
 .intro-social {
 	display: block;
