@@ -1104,7 +1104,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
   	-webkit-animation: html5 2s ease;
 }
 .sklearn {
-  	width: 55%;
+  	width: 60%;
     background: rgb(241, 224, 90);
   	-moz-animation: jquery 2s ease;
   	-webkit-animation: jquery 2s ease;
