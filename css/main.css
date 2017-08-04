@@ -1098,7 +1098,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .keras {
-  	width: 60%;
+  	width: 65%;
     background: rgb(208,0,0);
   	-moz-animation: html5 2s ease;
   	-webkit-animation: html5 2s ease;
