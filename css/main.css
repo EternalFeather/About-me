@@ -1059,7 +1059,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .python {
-  	width: 70%;
+  	width: 65%;
     background: rgb(53, 114, 165);
   	-moz-animation: photoshop 2s ease;
   	-webkit-animation: photoshop 2s ease;
@@ -1091,7 +1091,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
   	-webkit-animation: css 2s ease;
 }
 .TensorFlow {
-  	width: 70%;
+  	width: 65%;
     background: rgb(250,171,52);
   	-moz-animation: html5 2s ease;
   	-webkit-animation: html5 2s ease;
